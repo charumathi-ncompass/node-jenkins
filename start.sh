@@ -1,1 +1,3 @@
-touch hello.txt
+#!/bin/bash
+# starting service
+service httpd start

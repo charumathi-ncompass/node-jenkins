@@ -1,3 +1,3 @@
 #!/bin/bash
 # stoping apache
-service httpd stop
+rm -r hello.txt

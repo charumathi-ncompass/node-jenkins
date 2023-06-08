@@ -1,3 +1,3 @@
 #!/bin/bash
 # starting service
-service httpd start
+sudo systemctl start httpd

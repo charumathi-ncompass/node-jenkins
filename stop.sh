@@ -1,1 +1,2 @@
-echo "stop"
+#!/bin/bash
+sudo yum update -y

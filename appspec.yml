@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:
-    - location: stop.sh
+    - location: /stop.sh
       runas: ubuntu
   AfterInstall:
-    - location: start.sh
+    - location: /start.sh
       runas: ubuntu

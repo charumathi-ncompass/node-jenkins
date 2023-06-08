@@ -5,7 +5,7 @@ files:
 hooks:
   BeforeInstall:
     - location: /stop.sh
-      runas: ubuntu
+      runas: ec2-user
   AfterInstall:
     - location: /start.sh
-      runas: ubuntu
+      runas: ec2-user

@@ -1,3 +1,3 @@
 #!/bin/bash
 # starting service
-sudo systemctl start httpd
+echo "hello" > hello.txt

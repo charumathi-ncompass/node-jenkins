@@ -13,4 +13,4 @@ npm install
 #   echo "Application stopped."
 # fi
 
-rm -r hello.txt
+# rm -r hello.txt

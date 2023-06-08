@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo yum update -y
+# stoping apache
+service httpd stop

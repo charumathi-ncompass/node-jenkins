@@ -6,10 +6,9 @@ files:
 hooks:
   BeforeInstall:
     - location: ./start.sh
-      runas: root
-  ApplicationStart:
-    - location: ./node.sh
-     runas: root  
+      timeout: 180
+      runas: root 
   AfterInstall:
     - location: ./stop.sh
+      timeout: 300
       runas: root

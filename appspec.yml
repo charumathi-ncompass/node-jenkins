@@ -4,8 +4,8 @@ files:
   - source: ./index.js
 hooks:
   BeforeInstall:
-    - location: ./stop.sh
+    - location: ./start.sh
       runas: root
   AfterInstall:
-    - location: ./start.sh
+    - location: ./stop.sh
       runas: root

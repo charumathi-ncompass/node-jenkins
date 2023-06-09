@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /home/ec2-user
-node ./index.js
+node ./index.js > /dev/null 2> /dev/null < /dev/null &
 
 
 

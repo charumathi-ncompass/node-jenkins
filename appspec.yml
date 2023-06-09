@@ -2,6 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: ./index.js
+    destination: /home/ec2-user
 hooks:
   BeforeInstall:
     - location: ./start.sh

@@ -7,6 +7,9 @@ hooks:
   BeforeInstall:
     - location: ./start.sh
       runas: root
+  ApplicationStart:
+    - location: ./node.sh
+     runas: root  
   AfterInstall:
     - location: ./stop.sh
       runas: root

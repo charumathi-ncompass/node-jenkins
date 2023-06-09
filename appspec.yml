@@ -10,4 +10,5 @@ hooks:
       runas: root 
   AfterInstall:
     - location: ./stop.sh
+      timeout: 180
       runas: root

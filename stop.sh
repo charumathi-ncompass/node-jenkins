@@ -1,5 +1,5 @@
 #!/bin/bash
-npm install
+
 
 # # Find the process ID (PID) of your Node.js application
 # PID=$(pgrep -f "node ./index.js")

@@ -1,6 +1,5 @@
 #!/bin/bash
-cd /home/ec2-user
-node ./index.js
+
 
 
 # # Find the process ID (PID) of your Node.js application
